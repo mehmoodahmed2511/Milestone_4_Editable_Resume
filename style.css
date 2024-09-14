@@ -1,0 +1,94 @@
+/* #resume-form{
+    display:none;
+} */
+
+body{
+    margin:00px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(0.7);
+}
+@page {
+    size: A4;
+    margin: 0;
+  }
+/* html,body,*{
+    height:80%;
+} */
+#profile{
+    width:100px;
+    object-fit:contain
+}
+.background{
+    background-color: rgb(18, 169, 189);
+    border-radius: 10px;
+    color:white;
+}
+#template-left{
+    width:30%;
+    background-color:  rgb(18, 169, 189);
+}
+/* #resume-template{
+    /* display: flex; */
+.card{
+    margin-top: 30px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #ebebeb;
+    width:700px;
+}
+.card .card-header{
+    border-radius: 50px;
+    display: flex;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+    width:700px;
+}
+.card .card-header #hide-obj, .card .card-header #hide-exp, .card .card-header #hide-edu, .card .card-header #hide-cer, .card .card-header #hide-skills{
+    /* height:25px;
+    width:45px; */
+    padding: 2px 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    /* display: none; */
+}
+
+.card #objectiveFieldT {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#output-image{
+    height:140px;
+    width:140px;
+    max-width: 200px; 
+    border-radius: 100px; 
+    margin-top: 60px; 
+    margin-bottom: 20px;
+}
+h5{
+    margin-top: 40px;
+}
+#resume-template{
+    display: none;
+}
+#left-details{
+    margin-bottom: -5px;
+}
+#resume-form{
+    transform:scale(1.4);
+}
+/* @media print {
+    /* Ensure body fits to the page size */
+    /* body {
+        display: none;
+        margin:0px;
+    } */
+
+    /* Remove any unwanted margins/padding */
+    /* #resume-template {
+        display: block;
+        margin:0px;
+    } */
+/* }  */
